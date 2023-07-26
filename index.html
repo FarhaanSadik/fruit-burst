@@ -25,7 +25,7 @@
           }
         }
       </script>
-      
+
     <!-- style -->
     <style>
         .font-lato{font-family: 'Lato', sans-serif;}
@@ -34,7 +34,47 @@
 </head>
 <body class="font-lato">
 
-    <header></header>
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar bg-base-100 justify-between flex-row-reverse lg:flex-row lg:bg-[#F85559;] rounded-full mt-8">
+                <!-- item name -->
+                    <div class="dropdown lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>    
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-white">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                  </ul>
+                </div>
+                <!-- logo -->
+                <div>
+                    <div>
+                        <img src="./images/logo.png" alt="fruit burst logo">
+                    </div>
+                    <div>
+                        <a class="btn btn-ghost normal-case text-4xl text-black lg:text-white">Fruit Burst</a>
+                      </div>
+                </div>
+                <!-- search box -->
+                    <div class="md:w-96 mr-5">
+                        <input type="text" placeholder="Search Here                                                                            🔍" class="input input-bordered hidden lg:block lg:w-full rounded-full text-black"/>
+                   
+                    </div>
+            </div>
+        </nav>
+
+    </header>
     <main></main>
     <footer></footer>
     
